@@ -7,7 +7,7 @@
     "format": "prettier --write \"src/**/*.{jsx,js}\"",
     "lint": "eslint --quiet \"src/**/*.{jsx,js}\"",
     "dev": "vite",
-    "build": "vite build",
+    "prod": "vite build",
     "preview": "vite preview"
   },
   "keywords": [],
