@@ -1,0 +1,23 @@
+h2 {
+    --font-color: white;
+    color: var(--font-color);
+    transition: all 3s;
+}
+
+h2:hover {
+    --font-color: black
+}
+
+p {
+    --font-color: black;
+    color: var(--font-color);
+    transition: all 3s;
+}
+
+p:hover{
+    --font-color: white;
+}
+
+p:hover:after{
+    content: "As have I 🖤"
+}
