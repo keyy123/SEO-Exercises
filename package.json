@@ -8,7 +8,8 @@
     "lint": "eslint --quiet \"src/**/*.{jsx,js}\"",
     "dev": "vite",
     "prod": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
