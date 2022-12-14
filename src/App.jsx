@@ -5,7 +5,7 @@ const App = () => {
         <div>
             <h2>Hello</h2>
             <p>You have changed...</p>
-            <img src="assets/SEO.png"/>
+            <img src="/SEO.png"/>
         </div>
     )
 }
