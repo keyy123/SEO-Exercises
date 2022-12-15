@@ -24,7 +24,6 @@
     <meta name="twitter:site" content="N/A at the moment"/>
     <meta name="twitter:creator" content="@Kheyyon_P"/>
     <meta name="twitter:image" content="https://main--seo-exercise.netlify.app/SEO.png"/>
-
     <!-- End Twitter Metadata -->
     <meta name="keywords" content="seo, html"/>
     <link rel="stylesheet" href="style.css"/>
@@ -33,4 +32,27 @@
     <div id="root">Will not render</div>
 </body>
     <script defer src="./App.jsx" type="module"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type":"WebPage",
+            "abstract":"Code that is an SEO playground",
+            "dateCreated": "2022-12-13",
+            "educationalUse": "homework",
+            "breadcrumb":{
+				"@type":"BreadCrumbList",
+				"itemListElement":[
+					{
+                    "@type":"ListItem",
+					"position": 1,
+                    "item": {
+						"@id": "https://main--seo-exercise.netlify.app",
+                        "name": "seo"
+					        }
+				        }
+			        ]
+		        }
+            }
+        }
+    </script> 
 </html>
